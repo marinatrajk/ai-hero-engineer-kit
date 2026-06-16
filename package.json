@@ -1,0 +1,43 @@
+{
+  "name": "ai-hero-engineer-kit",
+  "version": "0.1.0",
+  "description": "A bundle of five engineering skills adapted from Matt Pocock's '5 Agent Skills I Use Every Day'. Plans, PRDs, vertical-slice issues, test-driven development, and codebase deepening in one install.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinatrajk/ai-hero-engineer-kit.git"
+  },
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "@vellumai/plugin-api": "^0.8.0"
+  },
+  "peerDependenciesMeta": {
+    "@vellumai/plugin-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.10",
+    "@types/node": "25.5.0",
+    "@vellumai/plugin-api": "0.8.12",
+    "typescript": "5.9.3"
+  },
+  "keywords": [
+    "vellum",
+    "vellum-assistant",
+    "skills",
+    "agents",
+    "ai-engineering",
+    "tdd",
+    "prd",
+    "codebase-architecture"
+  ]
+}
